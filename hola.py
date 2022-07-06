@@ -7,12 +7,9 @@ app = Flask(__name__)
 def hello() :
      return jsonify(
          {
-             "Full name":'Yassine EL BAHI'
-             
-      
-         
-         
-         })
+             "Full name":'Yassine EL BAHI'    
+         }
+     )
 
     
 if __name__ == "__main__":
