@@ -7,10 +7,9 @@ app = Flask(__name__)
 def hello() :
      return jsonify(
          {
-             "":'Yassine EL BAHI'
-             ""
-         
-         
+             "Full name":'Yassine EL BAHI'
+             
+      
          
          
          })
